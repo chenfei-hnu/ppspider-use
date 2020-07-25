@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "src/bin/test.js",
+  "scripts": {
+    "start": "node use-example/movie.js"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/puppeteer/**/*.*"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "config": "^3.2.4",
+    "cos-nodejs-sdk-v5": "^2.5.20",
+    "fetch": "^1.1.0",
+    "puppeteer": "^3.2.0",
+    "puppeteer-firefox": "^0.5.1",
+    "puppeteer-har": "^1.1.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {}
+}
